@@ -181,7 +181,8 @@ function imprimirPDF() {
         cellPadding: 2,
         overflow: "linebreak",
         halign: "center",
-        lineColor: [255, 255, 255], // borda branca
+        //lineColor: [255, 255, 255], // borda branca
+        lineColor: [0, 0, 0],
         lineWidth: 0.5, // espessura da borda
       },
       columnStyles: {
